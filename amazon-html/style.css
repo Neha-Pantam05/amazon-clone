@@ -3,6 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
 }
+
 .navbar{
     height: 60px;
     background-color: black;
@@ -45,7 +46,7 @@
     display: flex;
     justify-content: space-evenly;
     background-color: beige;
-    width: 620px;
+    width: 820px;
     height: 40px;
     border-radius: 4px;
 }
@@ -112,8 +113,112 @@ span{
     font-size: 1.5rem;
     display: flex;
 }
+a{
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: underline;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 90%;
+    font-size: 0.85rem;
+}
+/**hero section*/
+.hero-sec{
+    background-image: url("hero1.jpg");
+    height: 350px;
+    background-size: cover;
+}
+/*shop-sec*/
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(6, 95, 90);
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 15px 10px 15px 10px;
+    margin-top: 15px;
+}
+.box-img{
+    height: 300px;
+    width: 400px;
+    background-size: cover;
+    padding: 15px 15px 15px 5px;
+    justify-items: center;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.box-content p{
+    color: rgb(6, 95, 90);;
+} 
+/* footer */
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color:rgb(2, 64, 61);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.foot-panel2{
+    background-color: rgb(2, 54, 51);
+    color: #f3f3f3;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+}
 p{
     font-size: 1rem;
-    font-weight: 500;
 }
-
+.foot-panel3{
+    background-color: rgb(4, 13, 12);
+    color: #f3f3f3;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url("download.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+hr{
+    background-color: #f3f3f3;
+    size: 0.5px;
+}
